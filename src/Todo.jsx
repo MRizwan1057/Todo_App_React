@@ -50,7 +50,7 @@ const Todo = () => {
               </Button>
             )}
 
-            <p className="list_heading">Here is your list : {")"}</p>
+            <p className="list_heading">Here Tasks list : {")"}</p>
 
             {listData !== [] &&
               listData.map((data, i) => {
